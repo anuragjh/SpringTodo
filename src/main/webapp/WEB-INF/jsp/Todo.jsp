@@ -23,7 +23,7 @@
     <table class="table">
         <thead>
             <tr>
-                <th>Task Name</th>
+                <th hidden="hidden">Task Name</th>
                 <th>Description</th>
                 <th>Target Date</th>
                 <th>Completed</th>
@@ -34,7 +34,7 @@
         <tbody>
             <c:forEach items="${todos}" var="todo">
                 <tr>
-                    <td>${todo.name}</td>
+                    <td hidden="hidden">${todo.name}</td>
                     <td>${todo.description}</td>
                     <td>${todo.targetDate}</td>
                     <td>
